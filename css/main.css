@@ -232,7 +232,7 @@ img { max-width: 100%; }
 .sidenote-number:after, .sidenote:before { content: counter(sidenote-counter) " ";
                                            position: relative;
                                            vertical-align: baseline;
-                                           color: #f00000; }
+                                           color: #899752; }
 
 .sidenote-number:after { content: counter(sidenote-counter); 
                          font-size: 0.9rem;
