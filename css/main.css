@@ -20,7 +20,7 @@ hr {
     display: block;
     height: 1px;
     border: 0;
-    border-top: 1px solid #ccc;
+    border-top: 1px solid #899752;
     margin: 1em 0;
     padding: 0;
 }
@@ -63,7 +63,7 @@ textarea {
              font-weight: normal;
              font-style: italic; }
 
-html { font-size: 15px; }
+html { font-size: 15px; border-top: #899752 2em solid;}
 
 body { width: 87.5%;
        margin-left: auto;
@@ -200,9 +200,9 @@ figcaption { float: right;
 
 figure.fullwidth figcaption { margin-right: 24%; }
 
-a { color: #121310;
+a { color: #899752;
     text-decoration: none;
-    border-bottom: 1px solid #777;
+    border-bottom: 1px dotted #899752;
     padding-bottom: 1px; }
 
 img { max-width: 100%; }
@@ -213,6 +213,7 @@ img { max-width: 100%; }
                          width: 50%;
                          margin-top: 0;
                          margin-bottom: 0;
+                         padding-bottom: 2.0rem;
                          font-size: 1.0rem;
                          line-height: 1.6;
                          vertical-align: baseline;
